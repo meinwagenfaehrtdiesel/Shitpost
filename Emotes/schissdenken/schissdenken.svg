@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 45 45"
+	 style="enable-background:new 0 0 45 45;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#BF6952;}
+	.st2{fill:#F5F8FA;}
+	.st3{fill:#292F33;}
+	.st4{fill:#664500;}
+	.st5{fill:#F4900C;}
+</style>
+<script  id="metastreaminitscript" xmlns="">(function() {
+    document.getElementById(&apos;metastreaminitscript&apos;).remove()
+
+    // Only run in iframes, the same as Metastream webviews
+    if (window.self === window.top) return
+
+    const mediaElements = (window.__metastreamMediaElements = new Set())
+
+    // Proxy document.createElement to trap media elements created in-memory
+    const origCreateElement = document.createElement
+    const proxyCreateElement = function(tagName) {
+      const element = origCreateElement.call(document, tagName)
+      if (element instanceof HTMLMediaElement) {
+        mediaElements.add(element)
+      }
+      return element
+    }
+    proxyCreateElement.toString = origCreateElement.toString.bind(origCreateElement)
+    document.createElement = proxyCreateElement
+
+    setTimeout(() =&gt; {
+      mediaElements.clear()
+      window.__metastreamMediaElements = undefined
+    }, 5e3)
+
+    const isFirefox = navigator.userAgent.toLowerCase().includes(&apos;firefox&apos;)
+    if (isFirefox) {
+      const domains = [&apos;twitch.tv&apos;, &apos;crunchyroll.com&apos;]
+
+      // Fix for setting document.domain in sandboxed iframe
+      try {
+        const { domain } = document
+        if (domain &amp;&amp; domains.some(d =&gt; domain.includes(d))) {
+          Object.defineProperty(document, &apos;domain&apos;, {
+            value: domain,
+            writable: true
+          })
+        }
+      } catch (e) {}
+    }
+  }());
+	</script>
+<g id="g10" transform="matrix(1.25,0,0,-1.25,0,45)">
+	<g id="g12">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="-4.5" y="-4.5" width="45" height="45"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="g14" class="st0">
+				<g id="g20" transform="translate(33.541,12.8018)">
+					<path id="path22" class="st1" d="M0,0c0.4,1.6,0.2,3.3-0.5,4.9c-0.7,1.6-1.8,2.9-3.3,3.8c0.3,1.2,0.2,2.5-0.3,3.8
+						c-0.8,1.9-2.7,3.2-4.7,3.6c0.2,0.6,0.3,1.3,0,2.2c-1,3-5,1-8,5c-2.4-1.5-3-3.6-2.9-5.5c-2.4-0.4-3.8-0.9-3.8-0.9v0
+						c-1.4-0.6-2.3-1.9-2.3-3.4c0-0.9,0.3-1.7,0.8-2.3l-0.7-0.3l0,0c-2.3-0.9-4-3-4-5.4c0-1,0.3-2,0.8-2.9c-2.8-1.3-4.8-4-4.8-7.2
+						c0-4.4,3.7-8,8.2-8c3.3,0,6.6,0.7,9.5,1.7c2.2-1,5.7-1.7,10.9-1.7c4.1,0,7.3,3.3,7.3,7.3C2.5-3.3,1.5-1.3,0,0"/>
+				</g>
+				<g id="g24" transform="translate(17,20.5)">
+					<path id="path26" class="st2" d="M0,0c0-2.5-1.6-4.5-3.5-4.5S-7-2.5-7,0s1.6,4.5,3.5,4.5S0,2.5,0,0"/>
+				</g>
+				<g id="g28" transform="translate(27,20.5)">
+					<path id="path30" class="st2" d="M0,0c0-2.5-1.6-4.5-3.5-4.5S-7-2.5-7,0s1.6,4.5,3.5,4.5S0,2.5,0,0"/>
+				</g>
+				<g id="g32" transform="translate(16,20.5)">
+					<path id="path34" class="st3" d="M0,0c0-1.4-0.9-2.5-2-2.5c-1.1,0-2,1.1-2,2.5s0.9,2.5,2,2.5C-0.9,2.5,0,1.4,0,0"/>
+				</g>
+				<g id="g36" transform="translate(25,20.5)">
+					<path id="path38" class="st3" d="M0,0c0-1.4-0.9-2.5-2-2.5c-1.1,0-2,1.1-2,2.5s0.9,2.5,2,2.5C-0.9,2.5,0,1.4,0,0"/>
+				</g>
+			</g>
+		</g>
+		<g id="g36_1_" transform="translate(14.7427,16.4277)">
+			<path id="path38_1_" class="st4" d="M-0.1-4.9c-0.1,0.1-0.2,0.3-0.3,0.5c-0.1,0.5,0.2,0.9,0.7,1c4.6,0.7,7.5-1.9,7.6-2
+				c0.4-0.3,0.4-0.9,0.1-1.2C7.6-7,7.1-7,6.7-6.7C6.6-6.6,4.3-4.6,0.6-5.1C0.4-5.1,0.1-5.1-0.1-4.9"/>
+		</g>
+		<g id="g44" transform="translate(17.2764,0.8682)">
+			<path id="path46" class="st5" d="M-1.2-2.9c0,0,1.3,0.4,1.4,1.4c0.2,1-0.6,1.2-0.6,1.2s1,0.2,1.2,1.4c0.1,1.1-0.9,1.4-0.9,1.4
+				s1,0.4,1,1.5c0,1-1,1.4-1,1.4s5,1.2,5.6,1.3C6,6.8,6.8,7.3,6.6,8.3c-0.2,1.1-1.2,1.1-1.7,1C4.4,9.2-1.9,7.8-4,7.3
+				C-4.2,7.2-5.3,7-5.5,6.9C-6,6.8-6.2,7-5.9,7.4C-5.3,8-5,8.6-4.9,9.6c0.1,1-0.2,2.3-0.4,2.8c-0.4,0.9-1,1.6-1.7,1.9
+				c-1.1,0.4-1.9-0.3-1.5-1.6c0.6-1.9,0.2-3.4-0.8-4.3c-2.4-2.2-3.6-3.7-2.8-7c0.8-3.6,4.4-5.9,8-5C-4.1-3.6-1.2-2.9-1.2-2.9"/>
+		</g>
+	</g>
+</g>
+</svg>
